@@ -1,6 +1,7 @@
 body {
-    height: 800px;
-    background-image: linear-gradient(to bottom, blue, powderblue);
+    height: 1920px;
+    width: 1080px;
+    background-image: linear-gradient(to bottom right, blue, powderblue);
 }
 
 h1 {
