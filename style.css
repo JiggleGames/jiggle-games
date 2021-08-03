@@ -21,7 +21,7 @@ rcorners1 {
 rcorners {
     border-radius: 25px;
     border: 2px solid rgb(0, 0, 0);
-    padding: 20px;
-    width: 200px;
-    height: 150px;
+    padding: 80px;
+    width: 800px;
+    height: 300px;
 }
