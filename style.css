@@ -29,7 +29,7 @@
   
   .header {
     background-color: rgb(50, 50, 50);
-    height: auto;
+    height: 60px;
     width:100%;
   }
     
@@ -58,6 +58,10 @@
       background-color: rgb(5, 150, 170);
       color: rgb(5, 150, 170);
     }
+
+    .header-left {
+      float: left;
+    }
     
     .header-right {
       float: right;
@@ -73,3 +77,16 @@
         float: none;
       }
     }
+
+    .header-tabs {
+      position:relative; left:65px; bottom:60px;
+    }
+
+  .games {
+    position:absolute;
+  }
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+}
