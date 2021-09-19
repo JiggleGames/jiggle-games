@@ -79,14 +79,14 @@
     }
 
     .header-tabs {
-      position:relative; left:65px; bottom:60px;
+      position:absolute; left:75px; top:5px;
     }
 
   .games {
     position:absolute;
   }
 
-.bottom {
-  position: absolute;
-  bottom: 0px;
-}
+  .bottom {
+    position: absolute;
+    bottom: 0px;
+  }
