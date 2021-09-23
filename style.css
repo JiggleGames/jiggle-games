@@ -6,7 +6,7 @@
   }
   
   body {
-      background-color: rgb(0, 0, 0);
+      background-color: rgb(25, 25, 25);
   }
   
   h1 {
@@ -28,20 +28,25 @@
   }
 
   t2 {
-    color: rgb(255 255, 255);
+    color: rgb(200, 200, 200);
     font-size: 18px;
     position:relative; top:2.5px;
+  }
+
+  t3 {
+    color: rgb(200, 200, 200);
+    position: absolute; top:7.5px;
+    font-size: 18px;
   }
   
   .header {
     background-color: rgb(50, 50, 50);
-    height: 60px;
+    height:60px;
     width:100%;
   }
     
     .header a {
       float: left;
-      text-align: center;
       padding: 12px;
       line-height: 30px;
     }
@@ -53,20 +58,36 @@
     
     .header a:hover {
       background-color: rgba(255, 255, 255, 0.25);
-      color: black;
     }
     
     .header a.active {
       height:35px;
     }
 
-    .header-tabs {
+    .header-tabs-left {
       position:absolute; left:75px; top:0px;
     }
 
+    .header-tabs-mid {
+      position:absolute; left:666px; top:0px;
+    }
+
+    .header-tabs-right {
+      position:absolute; right:0px; top:0px;
+    }
+
+  .button {
+    position:absolute;
+    background-color:rgb(25, 25, 25);
+    color: rgb(255, 255, 255);
+    height:35px;
+    width:150px;
+  }
+
   .games {
     position:absolute;
-    top: 60px;
+    top: 160px;
+    left:210px;
   }
 
   .bottom {
