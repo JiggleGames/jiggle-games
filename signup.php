@@ -1,9 +1,11 @@
 <?php
 
 $username = $_GET['username'];
+$email = $_GET['email'];
 $password = $_GET['password'];
+$repeatpassword = $_GET['repeatpassword'];
 
-
+if (file_exists)
 
 $hashedpass = hash('sha512', $password);
 
