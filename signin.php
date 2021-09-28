@@ -16,7 +16,7 @@ $storedpass = $lines[0];
 echo $storedpass;
 
 if ($hashedpass == $storedpass)
-    header("Location: https://jigglegames.github.io/jigglegames/website.html");
+    header("Location: https://jigglegames.github.io/jigglegames");
 else
     echo "incorrect username or password"
 ?>
